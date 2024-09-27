@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.similar-card {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  margin-right: 30px;
+  width: 250px;
+}
+.image-align {
+  text-align: center;
+}
+.similar-image {
+  height: 190px;
+  width: 240px;
+  border-radius: 8px;
+}
+.similar-head {
+  font-family: 'roboto';
+  color: #171f46;
+  font-size: 16px;
+  font-weight: 800;
+}
+.brand-name {
+  color: #171f46;
+  font-size: 16px;
+  font-weight: normal;
+}
+.price-rating-container {
+  display: flex;
+  justify-content: space-between;
+}
+.price {
+  color: #171f46;
+  font-size: 16px;
+  font-weight: bold;
+}
+.rating-container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3b82f6;
+  color: #ffffff;
+  width: 50px;
+  height: 40px;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  padding: 6px;
+}
+.star3 {
+  height: 16px;
+}
+a {
+  text-decoration: none;
+}
